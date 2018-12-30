@@ -1,8 +1,11 @@
-Usage:
+## Usage
+```javascript
+
 const urlBase64 = require('url-base64');
 
 let buffer = urlBase64.parseUrlBase64('dXJsLWJhc2U2NA');
 let base64Str = urlBase64.convertToUrlBase64(buffer);
+```
 
 # url-base64
 
