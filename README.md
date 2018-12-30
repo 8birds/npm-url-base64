@@ -1,4 +1,11 @@
+Usage:
+const urlBase64 = require('url-base64');
+
+let buffer = urlBase64.parseUrlBase64('dXJsLWJhc2U2NA');
+let base64Str = urlBase64.convertToUrlBase64(buffer);
+
 # url-base64
+
 URL-base64 allows this base-64 variant to be used in URL path components/filenames, as well as query string values.
 
 The Base-64 mapping is the same except '+' is replaced with '-', and '/' is replaced with '_'.
