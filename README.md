@@ -1,4 +1,4 @@
-# url-base-64
+# url-base64
 URL-base64 allows this base-64 variant to be used in URL path components/filenames, as well as query string values.
 
 The Base-64 mapping is the same except '+' is replaced with '-', and '/' is replaced with '_'.
